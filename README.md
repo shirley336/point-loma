@@ -4,23 +4,26 @@
 **June 6, 2017: ver 0.2**
 
 ## Requirements
-setup.py should install the Python depencies  
 
 - sh (Python package)
 - click (Python package)
 - pathlib (Python package)
-
 - lighthouse (Node package)  
+
  Installing [Lighthouse]("https://github.com/GoogleChrome/lighthouse")  
 *Lighthouse requires Node 6 or later.*
 
 **Installation:**
+    Install the Python depencies using setup.py
+    	python setup.py install
+    
+    Install lighthouse
+    	npm install -g lighthouse
+    	# or use yarn:
+    	# yarn global add lighthouse
 
-    npm install -g lighthouse
-    # or use yarn:
-    # yarn global add lighthouse
-
-- Chrome Canary - Needed for headless mode, which is not yet implemented
+    Chrome Canary - Needed for headless mode, which is not yet implemented
+    	https://www.google.com/chrome/browser/canary.html
 
 ## Setup
 1. Download Google Chrome for Desktop.
