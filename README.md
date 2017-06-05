@@ -15,6 +15,7 @@ setup.py should install the Python depencies
 *Lighthouse requires Node 6 or later.*
 
 **Installation:**
+    python setup.py installl
 
     npm install -g lighthouse
     # or use yarn:
